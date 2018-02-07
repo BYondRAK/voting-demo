@@ -10,8 +10,8 @@ import signal
 import sys
 import gzip
 
-optionA = "AA"
-optionB = "BB"
+optionA = "AAA"
+optionB = "BBB"
 name = optionA + " Vs. " + optionB
 
 redis = Redis(host="redis", db=0)
